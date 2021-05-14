@@ -19,7 +19,7 @@ namespace FactoryMethodSample
 
         public static int getOutputType()
         {
-            string output = ConfigurationManager.AppSettings.Get("OutputType");
+            string output = AppConfigSettings.getSetting(nameof(OutputType));
             return Convert.ToInt32(output);
         }
     }
