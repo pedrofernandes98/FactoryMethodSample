@@ -15,6 +15,7 @@ namespace FactoryMethodSample.Creators
             {
                 case OutputType.Console: logManager = new ConsoleLogManager(); break;
                 case OutputType.TxtFile: logManager = new TxtFileLogManager(AppConfigSettings.getSetting("FilePath")); break;
+                case OutputType.HTMLFile: logManager = new HTMLLogManager(AppConfigSettings.getSetting("FilePath")); break;
             }
 
             return logManager;

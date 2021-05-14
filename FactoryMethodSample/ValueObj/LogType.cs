@@ -8,6 +8,6 @@ namespace FactoryMethodSample.ValueObj
     {
         public const string INFO = "Info";
         public const string WARNING = "Warning";
-        public const string ERROR = "Info";
+        public const string ERROR = "Error";
     }
 }

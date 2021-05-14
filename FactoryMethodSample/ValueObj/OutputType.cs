@@ -13,6 +13,10 @@ namespace FactoryMethodSample.ValueObj
         /// <summary>
         /// Log escrito em um arquivo texto (.txt)
         /// </summary>
-        TxtFile = 2
+        TxtFile = 2,
+        /// <summary>
+        /// Log escrito em um arquivo texto (.txt)
+        /// </summary>
+        HTMLFile = 3
     }
 }
